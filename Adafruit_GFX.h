@@ -58,6 +58,8 @@ class Adafruit_GFX : public Print {
       int16_t w, int16_t h, uint16_t color),
     drawChar(int16_t x, int16_t y, unsigned char c, uint16_t color,
       uint16_t bg, uint8_t size),
+    drawChar(int16_t x, int16_t y, unsigned char c, uint16_t color,
+      uint16_t bg, uint8_t size, uint8_t flip),
     setCursor(int16_t x, int16_t y),
     setTextColor(uint16_t c),
     setTextColor(uint16_t c, uint16_t bg),
